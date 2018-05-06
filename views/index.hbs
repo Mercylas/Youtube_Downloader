@@ -1,2 +1,15 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<header class="site-head">
+    <h1 class="h2 mb-4 title">Youtube Downloader</h1>
+    <p>Download any youtube video in multiple formats and quality with fast download</p>
+</header>
+<div class="container content-wrap">
+    <div class="row justify-content-center align-items-start">
+        <div class="col">
+            <form class="down-form" name="youtube-download" method="post">
+                <input type="url" name="url" placeholder="https://www.youtube.com/watch?v=AnGzRACOOOs" required class="form-control form-control-lg"/>
+                <button type="submit" class="btn btn-success mt-3" formaction="/downloads">Get Links</button>
+                <button type="submit" class="btn btn-success mt-3" formaction="/m4a">Download M4A</button>
+            </form>
+        </div>
+    </div>
+</div>
