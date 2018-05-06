@@ -1,0 +1,22 @@
+{
+  "name": "youtube_downloader",
+  "version": "1.0.0",
+  "description": "Download from youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mercylas/Youtube_Downloader.git"
+  },
+  "author": "James Fitzgerald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mercylas/Youtube_Downloader/issues"
+  },
+  "homepage": "https://github.com/Mercylas/Youtube_Downloader#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
